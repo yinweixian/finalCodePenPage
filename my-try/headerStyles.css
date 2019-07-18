@@ -1,0 +1,113 @@
+/*header styles*/
+.header {
+    height:50px;
+    background-color: black;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 150px 800px 500px auto;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.header > .logo{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.header > .logo > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.header > .buttons{
+    display: flex;
+    align-items: center;
+}
+
+.header > .buttons > .left-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.header > .buttons > .left-buttons > .pens > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.header > .buttons > .left-buttons > .projects > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.header > .buttons > .left-buttons > .posts > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.header > .buttons > .left-buttons > .collections > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.header > .buttons > .right-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.header > .right-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .buttons > .right-buttons > .spark > a:link{
+    color: grey;
+    text-decoration: none;
+}
+.header > .buttons > .right-buttons > .jobs > a:link{
+    color: grey;
+    text-decoration: none;
+}
+.header > .buttons > .right-buttons > .challenges > a:link{
+    color: grey;
+    text-decoration: none;
+}
+.header > .buttons > .right-buttons > .blog > a:link{
+    color: grey;
+    text-decoration: none;
+}
+.header > .buttons > .right-buttons > .gopro > a:link{
+    color: grey;
+    text-decoration: none;
+}
+
+
+.header > .buttons > .left-buttons{
+    width: 250px;
+}
+
+.header > .buttons > .right-buttons{
+    width: 250px;
+}
+
+.header > .right-buttons > .create > a:link{
+    color: grey;
+    text-decoration: none;
+}
+.header > .right-buttons > .log-in > a:link{
+    color: grey;
+    text-decoration: none;
+}
+.header > .right-buttons > .sign-up > a:link{
+    color: grey;
+    text-decoration: none;
+}

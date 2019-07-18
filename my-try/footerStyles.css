@@ -1,0 +1,56 @@
+/*footer styles*/
+.footer > .buttons{
+    height: 50px;
+    background-color: #808080;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5px;
+    grid-row-gap: 10px blue;
+}
+
+
+.footer > .buttons > .teams > a:link {
+    align-content: center;
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+.footer > .buttons > .education > a:link {
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+.footer > .buttons > .privacy > a:link {
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.footer > .buttons > .writing > a:link {
+    color: white;
+    background-color: black;
+    width: 25%;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+}
